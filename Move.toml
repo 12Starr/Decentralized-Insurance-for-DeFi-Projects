@@ -1,0 +1,15 @@
+[package]
+name = "Insurance_for_defi"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Insurancefordefi='0x114b657480d00e9a9c7c64b3670d9e68a6adfb145a87efd34ada7ac61cf2c058'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
